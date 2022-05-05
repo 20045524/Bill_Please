@@ -48,8 +48,6 @@ public class MainActivity extends AppCompatActivity {
                 String paxData = numPax.getText().toString();
                 String dstData = numDiscount.getText().toString();
 
-
-
                 int checkedRadioId = rgMode.getCheckedRadioButtonId();
 
                 if (amtData.trim().length() != 0 || paxData.trim().length() != 0) {
@@ -80,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                     if(checkedRadioId == R.id.rbCash){
                         eachPaysDisplay.setText("Each Pay: $" + eachPays + " ");
                     } else {
-                        eachPaysDisplay.setText("Each Pay: $" + eachPays + " via PayNow to 112");
+                        eachPaysDisplay.setText("Each Pay: $" + eachPays + " via PayNow to 20045524");
                     }
 
                 } else {
